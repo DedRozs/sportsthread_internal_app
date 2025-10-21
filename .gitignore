@@ -114,10 +114,6 @@ __build__/
 *.lock
 .cache/
 
-# GitHub Actions runner temp dirs (optional)
-.github/
-!.github/workflows/
-
 # Project-specific build artifacts
 infra/packaging/windows/*
 infra/packaging/macos/*

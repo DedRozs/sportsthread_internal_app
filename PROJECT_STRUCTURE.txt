@@ -1,0 +1,45 @@
+Project structure for: C:\Users\josep\Desktop\Sports Thread\sportsthread_internal_app
+Generated: 2025-10-21 17:51:53
+
+.
+├── .github/
+│   └── workflows/
+│       └── build.yml
+├── app/
+│   ├── roster/
+│   │   ├── assets/
+│   │   │   └── bootstrap.min.css
+│   │   ├── engine_ironpdf.py
+│   │   ├── engine_web.py
+│   │   ├── export_engine.py
+│   │   ├── messages.py
+│   │   ├── render_html.py
+│   │   ├── sanitize.py
+│   │   ├── sort_and_group.py
+│   │   ├── spec_constants.py
+│   │   └── sql_text.py
+│   ├── security/
+│   │   └── secure_env.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── main_window.py
+│   │   └── passphrase_prompt.py
+│   ├── __init__.py
+│   ├── DBFunctions.py
+│   ├── licensing.py
+│   └── main.py
+├── docs/
+│   └── project_spec.md
+├── tests/
+│   ├── conftest.py
+│   ├── test_coach_pick.py
+│   ├── test_imports.py
+│   ├── test_licensing.py
+│   └── test_sort_and_filename.py
+├── utils/
+│   └── project_structure.py
+├── .gitignore
+├── PROJECT_STRUCTURE.txt
+├── README_dev.md
+├── requirements.txt
+└── sportsthread_logo.png
