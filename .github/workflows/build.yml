@@ -68,6 +68,7 @@ jobs:
       # --- Build executable(s) ---
       # Adjust entrypoint/path if your main module differs
       - name: Build with PyInstaller
+        shell: bash
         run: |
           pyinstaller app/main.py \
             --name sportsthread-internal-app \
